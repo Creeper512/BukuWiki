@@ -34,9 +34,6 @@ export default function Home() {
               <Link className={clsx('button button--primary', styles.heroBtn)} to="/intro">
                 快速开始
               </Link>
-              <Link className={clsx('button button--secondary', styles.heroBtn)} to="/docs">
-                文档中心
-              </Link>
             </div>
           </div>
         </section>
@@ -46,25 +43,21 @@ export default function Home() {
               title="新手入门"
               description="从零开始，快速了解 Minecraft 的基础玩法与服务器加入方法。"
               icon="🎮"
-              link="/intro"
             />
             <FeatureCard
               title="常见问题"
               description="遇到问题？这里有最全的解答和解决方案。"
               icon="❓"
-              link="/faq"
             />
             <FeatureCard
               title="进阶教程"
               description="进阶玩法、插件、模组、自动化等内容一网打尽。"
               icon="🚀"
-              link="/advanced"
             />
             <FeatureCard
               title="社区与支持"
               description="加入我们的社区，获取帮助，结识更多玩家。"
               icon="💬"
-              link="/community"
             />
           </div>
         </section>
