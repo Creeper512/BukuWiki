@@ -71,9 +71,9 @@
 
 .featuresGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 32px;
-  max-width: 900px;
+  max-width: 1200px;
   width: 100%;
   padding: 0 24px; /* 新增左右边距，防止卡片贴边 */
 }
